@@ -1,0 +1,252 @@
+.resume{
+    width: 800px;
+    height: auto;
+    /* background-color:#EEF2E6 ;  */
+    margin:0 250px 0 ;
+    
+}
+nav{
+    opacity: .70;
+    /* background-color: #EEF2E6; */
+}
+.navitems{
+    justify-content: flex-end;
+}
+.profile-body{
+    background-color:#F6F6F6;
+    /* padding: 0 30px 0; */
+    border-radius:10px;
+    box-shadow: 3px 3px 8px #212121,-3px -3px 8px #212121;
+}
+.profile-header{
+    color: white;
+    padding:30px 30px;
+    border-radius: 10px;
+    background-color: #212121;
+    position: relative;
+
+}
+
+.profile-header-content{
+    margin-top: 10px;
+    width: auto;
+    height: 134px;
+    padding-top: 12px;
+
+}
+nav img{
+    width: 20px;
+    height: 20px;
+}
+
+img{
+    width: 150px;
+    height: 160px;
+}
+.dp{
+    border: 5px solid #F6F6F6;
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    
+    box-shadow:5px 5px 10px #212121;
+    
+}
+button{
+    font-size: 14px;
+    border-radius: 50%;
+    border-style: none;
+    
+}
+
+.b1{
+    background-color: #6D9886;
+    border-style: none;
+}
+
+/* about me  */
+.aboutme{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    text-align: justify;
+}
+ul li{
+    overflow-wrap: break-word;
+    list-style: none;
+    justify-content: left;
+    padding:3px 0px ;
+    /* padding-left: 10px; */
+}
+
+.aboutme-list{
+    /* padding-left: 50px; */
+    margin-top: 35px;
+    text-align: left;
+}
+
+/* education */
+.education{
+    padding: 30px 30px;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+.education1{
+    padding-left: 30px;
+    margin-left: -28px;
+}
+.education2 li{
+    padding: 3px 0px;
+    margin-bottom: 10px;
+}
+.education1 li{
+    
+    list-style-type: disc;
+}
+.education1 .li2 {
+    margin-top: 55px;
+}
+.education1 .li3{
+    margin-top: 55px;
+}
+.education2 p{
+    /* padding:0px 0px; */
+    margin-bottom: 0px;
+}
+.year{
+    opacity: .70;
+}
+/* professionalskills */
+.professionalskills{
+    padding: 30px 30px;
+    font-size: 14px;
+}
+.professionalskills1{
+    margin-left: -28px;
+}
+.professionalskills li{
+    padding: 10px 0px;
+}
+.professionalskills1 .progress-bar{
+    background-color: #212121;
+}
+.professionalskills2 .progress-bar{
+    background-color: #6D9886;
+    
+}
+/* .professionalskills2 .progress{
+    background-color: #212121;
+} */
+/* hobbies */
+.hobbies{
+    padding: 30px 30px;
+    font-size: 14px;
+}
+.hobbieslist{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+
+}
+.hobbies img{
+    width: 20px;
+        height: 20px;
+}
+
+.line{
+    margin: 0px 30px;
+    height:2px;
+    width: auto;
+    /* background-color: #212121;
+     */
+     border-bottom: 1px solid #212121;
+     opacity: .25;
+}
+
+/* footer  */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #F05454;
+}
+
+.left {
+
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.right {
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.main img {
+    position: relative;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+
+}
+
+.main p {
+    margin-left: 10px;
+    display: inline;
+    color: black;
+}
+
+.main .list {
+    padding: 10px 10px;
+}
+
+.right-list {
+    margin-top: 10px;
+    text-decoration: none;
+
+
+}
+
+.main input,
+textarea {
+    color: white;
+    width: 237px;
+    background-color: #121212;
+    border-style: none;
+
+}
+
+.main .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: gray;
+    font-size: 14px;
+    background: #121212;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.main .btn:hover {
+    background: gray;
+    text-decoration: none;
+}
+
+.main a {
+    text-decoration: none;
+
+}
+
